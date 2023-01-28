@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eduardopaludo.mobile"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0fb7d10-710f-4c69-8e08-a8bce1dc6128"
+      }
     }
   }
 }
